@@ -15,8 +15,8 @@ All packages can be installed with `$pip intall name_of_the_package`.
 
 # User manual
 
-1. Download the folder called `slider_depth` (http://rpg.ifi.uzh.ch/datasets/davis/slider_depth.zip) and put it in `data`.
-2. Run `$python txt_to_npy.py` to convert `.txt` file in `data` to `.npy` files, stored in `events`.
+1. Download the folders called `shapes_6dof`, `slider_depth` and `office_zigzag` (http://rpg.ifi.uzh.ch/datasets/davis/shapes_6dof.zip ; http://rpg.ifi.uzh.ch/datasets/davis/slider_depth.zip ; http://rpg.ifi.uzh.ch/datasets/davis/office_zigzag.zip) and put it in `data`.
+2. Run `$python txt_to_npy.py` to convert `.txt` files to `.npy` files.
 3. Run `$python gradient_descent.py` to perform gradient descent (on slider_depth by default).
 4. Run `$python ADMM.py` to perform ADMM (on slider_depth by default).
 
