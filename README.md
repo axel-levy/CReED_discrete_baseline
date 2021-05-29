@@ -15,7 +15,7 @@ All packages can be installed with `$pip intall name_of_the_package`.
 
 # User manual
 
-- `data` contains the file downloaded from http://rpg.ifi.uzh.ch/davis_data.html. Some have been already downloaded. You can download other files if you want to!
+- `data` contains the file downloaded from http://rpg.ifi.uzh.ch/davis_data.html. Some have been already downloaded. You can download other files if you feel like it.
 - `events` will contain the stream of events under `.npy` format.
 - `dataio.py` manages the data loading.
 - `txt_to_npy` translates `.txt` files to `.npy` files.
