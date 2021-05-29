@@ -22,7 +22,7 @@ All packages can be installed with `$pip intall name_of_the_package`.
 - `gradient descent.py` contains experiments with gradient descent.
 - `ADMM.py` contains experiments with ADMM.
 
-1. Download the folder called `slider_depth` (http://rpg.ifi.uzh.ch/datasets/davis/slider_depth.zip)
+1. Download the folder called `slider_depth` (http://rpg.ifi.uzh.ch/datasets/davis/slider_depth.zip) and put it in `data`.
 2. Run `$python txt_to_npy.py` to convert `.txt` file in `data` to `.npy` files, stored in `events`.
 3. Run `$python gradient_descent.py` to perform gradient descent (on slider_depth by default).
 4. Run `$python ADMM.py` to perform ADMM (on slider_depth by default).
